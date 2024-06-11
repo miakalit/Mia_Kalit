@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: "MiaKalit";
+    src:url("Dokumenti/MiaKalit.ttf");
+	}
+h1{
+	font-family: "MiaKalit";
+	color: coral;
+}
+li {	display:inline;
+}
+h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 700px;
+	color: cadetblue;
+	background-color: aliceblue;
+	padding: 20px
+}
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 18px;
+	width: 700px;
+	background-color: aquamarine;
+	padding: 20px;
+}
+h3{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 700px;
+	color: crimson;
+	background-color: lightblue;
+	padding: 20px;
+}
+.pozadina {
+	background-image: url("Slike/pozadina.jpg");
+}
+.drugapozadina {
+	background-image: url("Slike/pozadina3.jpg");
+}
+.novi_blok {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	margin: 20px;
+	width: 80%;
+}
+a:link {
+	color: darkorchid;
+	background-color: plum;
+	line-height: 40px;
+	border: 1px solid #000000;
+}
+a:hover {
+	background-color: blue;
+}
+img {
+	height: 300px;
+}
